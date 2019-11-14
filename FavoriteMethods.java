@@ -1,5 +1,5 @@
 /*
-	Jamie Steck and CSIS 293 FA19 0939
+	Jamie Steck and CSIS293-0939 FA19 Class
 	Nov 13, 2019
 	FavoriteMethods.java
 	A collection of our favorite useful (static) methods
