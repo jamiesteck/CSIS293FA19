@@ -85,5 +85,13 @@ public class FavoriteMethods
 			System.out.printf("%s, ", array[i]); 
 		}
 		System.out.println();
-  	}
+  	}//prints an array of ints
+	 private static void printArray(int[] printArray) {
+
+
+        for (int index = 0; index < printArray.length; index++) {
+            System.out.println(printArray[index]);
+        }
+    }
+
 }//end class
