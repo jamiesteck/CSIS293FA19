@@ -162,4 +162,16 @@ public class FavoriteMethods
 		}
 		System.out.print("]");
 	}//end bubbleSort
+	
+	// a method that outputs the square of 12
+	   public static void main(String[] args) {
+        int ans;
+        ans = square(); 
+        System.out.println("Squared value of 12 is: " + ans);
+    }
+          public static int square() {
+        // return statement
+        return 12 * 12;
+    }//end square 12
+	
 }//end class
