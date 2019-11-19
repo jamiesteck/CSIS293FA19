@@ -162,4 +162,17 @@ public class FavoriteMethods
 		}
 		System.out.print("]");
 	}//end bubbleSort
+	
+	//int sum and multiplication (Bilal)
+	   public static int getIntegerSum (int i, int j) {
+        return i + j;
+    }
+    public static int multiplyInteger (int x, int y) {
+        return x * y;
+    }
+    public static void main(String[] args) {
+        System.out.println("20 + 22 = " + getIntegerSum(20, 22));
+        System.out.println("20 x 44 = " + multiplyInteger(20, 44));
+    }// end int sum and multiplication
+	
 }//end class
