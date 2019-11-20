@@ -57,6 +57,12 @@ public class FavoriteMethods
 		System.out.println("Henry Tran: Calculating area of the square...");
 		squareArea(12);
 		
+		//from Nhi
+		int ranNum = randomNumber(2,10);
+		System.out.println(ranNum);
+		//is it an even number?
+		 System.out.println("Is it an even number? " + isEvenNumber(ranNum));
+		
 	}//end main method
 
 	//randomNumber() returns a random number in the given range (between low and high, inclusive)
@@ -283,5 +289,17 @@ public class FavoriteMethods
 	}
 
         }//end fortune cookie
+	
+	//Nhi adds: isEvenNumber() method to check if the random number is an even number 
+	public static boolean isEvenNumber(int ran){
+		boolean found;
+		if(ran % 2 == 0){
+		    found = true;
+		}
+		else{
+		    found = false;
+		}
+		return found;
+   	}
 
 }//end class
